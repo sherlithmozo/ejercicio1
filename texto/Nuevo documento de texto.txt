@@ -1,0 +1,17 @@
+double hrtrabjadas,valorhr, porcentaje, sueldo, total;
+			
+			Console.WriteLine("digite las horas trabajadas");
+			hrtrabjadas = int.Parse(Console.ReadLine());
+			
+			Console.WriteLine("digite el valor de las horas");
+			valorhr = int.Parse(Console.ReadLine());
+			
+			sueldo = (hrtrabjadas * valorhr);
+				
+			Console.WriteLine("digite el porcentaje por comision");
+			porcentaje = int.Parse(Console.ReadLine());
+			
+			total = sueldo + porcentaje;
+			
+			Console.WriteLine("su sueldo es" + total);
+		    	
